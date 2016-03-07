@@ -36,8 +36,8 @@ Create a file named `settings.json` in your project folder. This file should hav
 ```js
 {
   "private": {
-    "AUTH0_CLIENT_ID": "6c9Z61Wqr1UEDa7mwZvKeqRqUDbQiPVR",
-    "AUTH0_DOMAIN": "tutorials.auth0.com"
+    "AUTH0_CLIENT_ID": "YourID",
+    "AUTH0_DOMAIN": "YourDomain"
   }
 }
 ```
