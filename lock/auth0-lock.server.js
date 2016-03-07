@@ -53,8 +53,8 @@ if (Meteor.isServer) {
         // Gets called from the Meteor.startup function on the client.
         'getAuth0Attributes': function () {
             return {
-                AUTH0_CLIENTID: Meteor.settings.public.AUTH0_CLIENT_ID,
-                AUTH0_DOMAIN  : Meteor.settings.public.AUTH0_DOMAIN
+                AUTH0_CLIENTID: Meteor.settings.private.AUTH0_CLIENT_ID,
+                AUTH0_DOMAIN  : Meteor.settings.private.AUTH0_DOMAIN
             };
         }
     });
